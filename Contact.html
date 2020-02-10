@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact</title>
+</head>
+
+<body>
+    <h1>My Contact Detail</h1>
+    <p>Email ID: yukti.singh12@gmail.com</p>
+    <p>Contact Number: 7338446258</p>
+    <hr>
+    <form action="mailto:yukti.singh12@gmail.com" method="POST" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label for="Get-name" name="Name">Your Name</label></td>
+                <td><input id="Get-name" type="text" name="Name"></td>
+            </tr>
+            <tr>
+                <td><label for="Get-Email" name="Email">Your E-mail</label></td>
+                <td><input id="Get-Email" type="email"></td>
+            </tr>
+            <tr>
+                <td><label for="Get-Message" name="Message">Your Message</label></td>
+                <td><textarea id="Get-Message" rows="10" cols="100"></textarea></td>
+            </tr>
+            <!--<tr>
+                <td><label for="Get-Password">Password</label></td>
+                <td><input id="Get-Password" type="password"></td>
+            </tr> -->
+        </table>
+        <input type="submit" name="Save">
+    </form>
+</body>
+
+</html>
